@@ -20,7 +20,7 @@ int main() {
 
     // Menampilkan Array 2 Dimension
     for (int n = 0; n < sizeof(data)/sizeof(data[0]); n++) {
-        for (int j = 0; j < sizeof(data[0])/sizeof(int); j++) {
+        for (int j = 0; j < sizeof(data[0])/sizeof(data[0][0]); j++) {
             printf("%d ", data[n][j]);
         }
     }
@@ -33,7 +33,7 @@ int main() {
     // Menampilkan Array 3 Dimension
     for (int n = 0; n < sizeof(data2)/sizeof(data2[0]); n++) {
         for (int j = 0; j < sizeof(data2[0])/sizeof(data2[0][0]); j++) {
-            for (int k = 0; k < sizeof(data2[0][0])/sizeof(int); k++) {
+            for (int k = 0; k < sizeof(data2[0][0])/sizeof(data2[0][0][0]); k++) {
                 printf("%d ", data2[n][j][k]);
             }
         }
