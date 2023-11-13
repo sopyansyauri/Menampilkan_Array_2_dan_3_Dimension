@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// menambah
+
 int main() {
     int data[3][2] = {
         {11,12},
